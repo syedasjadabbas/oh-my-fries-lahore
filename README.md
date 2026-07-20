@@ -1,32 +1,29 @@
-# React + TypeScript + Vite
+# OH MY FRIES Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A premium restaurant website built for OH MY FRIES, Lahore.
 
-Currently, two official plugins are available:
+The project focuses on delivering a modern fast-food brand experience through bold visuals, responsive layouts, engaging animations, and a mobile-first design approach.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Responsive Design
+- Premium Fast-Food Branding
+- Interactive Menu Categories
+- Featured Products Showcase
+- Gallery Section
+- Google Maps Integration
+- WhatsApp Ordering CTA
+- Mobile Optimized
+- Smooth Animations
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the Oxlint configuration
+- React
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- Vite
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## Objective
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
-
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+Create a modern digital presence that reflects OH MY FRIES' brand identity and highlights its signature loaded fries, burgers, wraps, and special deals.
